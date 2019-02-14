@@ -7,69 +7,84 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet"/>
   </head>
   <body>
-    <div class="header">
-      <div class="linha">
-        <header>
-          <div class="coluna col4">
-            <h1 class="titulo">start bootstrap</h1>
-          </div>
-          <div class="coluna col8">
-            <nav>
-              <ul class="menu">
-                <li>portfolio</li>
-                <li>about</li>
-                <li>contact</li>
-              </ul>
-            </nav>
-          </div> 
-        </header>        
-      </div>
+
+    <div class="linha header">
+      <header>
+        <div class="coluna col1">
+          <h1 class="titulo">start bootstrap</h1>
+        </div>
+        <div class="coluna col2">
+          <nav>
+            <ul class="menu">
+              <li>portfolio</li>
+              <li>about</li>
+              <li>contact</li>
+            </ul>
+          </nav>
+        </div> 
+      </header>        
     </div>
+
+    <div class="linha parte1">
+      <section>
+          <img id="imagem1" src="assets\images\profile.png" alt="Trabalhador">
+          <h2 id="tituloParte1">Start Bootstrap</h2>
+          <hr>
+          <p id=paragParte1>Web Developer - Graphic Artist - User Experience Designer</p>        
+      </section>
+    </div>
+
+    <div class="linha">
+        <section>
+          <h2>Portfolio</h2>
+          <hr>
+          <div class="coluna col1 portfolio1">        
+            <img src="assets\images\portfolio\cabin.png" alt="Imagem cabana">
+          </div>
+          <div class="coluna col2 portfolio1">        
+            <img src="assets\images\portfolio\cake.png" alt="Imagem bolo">
+          </div>
+          <div class="coluna col3 portfolio1">        
+            <img src="assets\images\portfolio\circus.png" alt="Imagem circo">
+          </div>
+          <div class="coluna col1">        
+            <img src="assets\images\portfolio\game.png" alt="Imagem controle">
+          </div>
+          <div class="coluna col2">        
+            <img src="assets\images\portfolio\safe.png" alt="Imagem cofre">
+          </div>
+          <div class="coluna col3">        
+            <img src="assets\images\portfolio\submarine.png" alt="Imagem submarino">
+          </div>         
+        </section>
+    </div>
+
     <div class="linha">
       <section>
         <div class="coluna col12">
-          <img src="assets\images\profile.png" alt="Trabalhador">
-          <h2>Start Bootstrap</h2>
+          <h2>About</h2>
           <hr>
-          <p>Web Developer - Graphic Artist - User Experience Designer</p>
+          <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          <button>Download Now!</button>
         </div>
       </section>
     </div>
     <div class="linha">
         <section>
-          <div class="coluna col4">
-            <h2>Portfolio</h2>
-            <hr>
-            <img src="assets\images\portfolio\cabin.png" alt="Imagem cabana">
-            <img src="assets\images\portfolio\cake.png" alt="Imagem bolo">
-            <img src="assets\images\portfolio\circus.png" alt="Imagem circo">
-            <img src="assets\images\portfolio\game.png" alt="Imagem controle">
-            <img src="assets\images\portfolio\safe.png" alt="Imagem cofre">
-            <img src="assets\images\portfolio\submarine.png" alt="Imagem submarino">
+          <div class="coluna col12">
+              <h2>Contact me</h2>
+              <hr>
+              <form action="" method="GET">
+                  <input label="Name" type="text" placeholder="Name"/>
+                  <input label="Email Address" type="text" placeholder="Email Address"/>
+                  <input label="Phone Number" type="text" placeholder="Phone Number"/>
+                  <textarea   placeholder="Message"></textarea>
+                  <button>Send</button>
+              </form>
           </div>
         </section>
-      </div>
-    
-
-    <section>
-        <h2>About</h2>
-        <hr>
-        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-        <button>Download Now</button>
-    </section>
-    <section>
-        <h2>Contact me</h2>
-        <hr>
-        <form action="" method="GET">
-            <input label="Nome" type="text" placeholder="Nome"/>
-            <input label="Email Address" type="text" placeholder="Email Address"/>
-            <input label="Phone Number" type="text" placeholder="Phone Number"/>
-            <textarea rows="5" cols="50" placeholder="Message"></textarea>
-            <button>Send</button>
-        </form>
-    </section>
-
+    </div>
     <div class="footer">
       <div class="linha">
         <footer>
@@ -81,9 +96,11 @@
             <h3>Around the web</h3>
             <h3>About freelancer</h3>
               <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
-            <span>&copy; Aline Cherez 2019</span>
-          </div>          
+            </div>          
         </footer>
+        <div class="coluna col12">
+          <span class="copyright">&copy; Aline Cherez 2019</span>
+        </div>        
       </div>   
     </div>    
   </body>
