@@ -1,100 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <title>Freelancer - Start Bootstrap Theme</title>
     <link rel="stylesheet" href="css\main.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
-
   <body>
-    <div class="parte1">
-      <header class="header">
-        <h1>start bootstrap</h1> 
-        <nav>
-          <ul>
-            <li>portfolio</li>
-            <li>about</li>
-            <li>contact</li>
-          </ul>
-        </nav>
-      </header>        
-    </div>
-
-    <div class="parte2">
-      <section>
-          <img id="imagem1" src="assets\images\profile.png" alt="Trabalhador">
-          <h2 id="tituloParte2">Start Bootstrap</h2>
-          <p id=paragParte2>Web Developer - Graphic Artist - User Experience Designer</p>        
-      </section>
-    </div>
-
-    <div class="parte3">
-      <section>
-        <h2 id="tituloParte3">Portfolio</h2>
-        <div class="portfolio">
-          <img src="assets\images\portfolio\cabin.png" alt="Imagem cabana">      
-          <img src="assets\images\portfolio\cake.png" alt="Imagem bolo"> 
-          <img src="assets\images\portfolio\circus.png" alt="Imagem circo">
-        </div>
-        <div class="portfolio">
-          <img src="assets\images\portfolio\game.png" alt="Imagem controle">
-          <img src="assets\images\portfolio\safe.png" alt="Imagem cofre">
-          <img src="assets\images\portfolio\submarine.png" alt="Imagem submarino">
-        </div>         
-        </section>
-    </div>
-    
-    <div class="parte4">
-      <section>
-        <h2>About</h2>
-        <div class="about">          
-          <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-          <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-        </div>        
-        <button>Download Theme</button>
-      </section>
-    </div>  
-  
-    
-        <section class="parte5">
-          <h2 id="tituloContato">Contact me</h2>                     
-          <div class="contato-botao">
-            <form class="contato" action="" method="GET">
-              <input label="Name" type="text" placeholder="Name"/>
-              <input label="Email Address" type="text" placeholder="Email Address"/>
-              <input label="Phone Number" type="text" placeholder="Phone Number"/>
-              <textarea placeholder="Message"></textarea>
-            </form>          
-            <button>Send</button>
-          </div>
-        </section>
-    
-
-    <div class="parte6">
-      <footer class="footer">
-        <div class="footer-bloco">
-          <h3>Location</h3>
-          <p>2215 John Daniel Drive
-          <br>Clark, MO 65243
-          </p>
-        </div>
-        <div class="footer-bloco">
-          <h3>Around the web</h3>
-          <i class="fab fa-facebook-square fa-3x"></i>
-          <i class="fab fa-google-plus-square fa-3x"></i>
-          <i class="fab fa-twitter-square fa-3x"></i>
-          <i class="fab fa-linkedin fa-3x"></i>
-          <i class="fab fa-dribbble-square fa-3x"></i>
-        </div>
-        <div class="footer-bloco">
-          <h3>About freelancer</h3>
-          <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
-        </div>         
-      </footer>
-      <p class="copyright">Copyright © Your Website 2019</p>
-    </div>
-       
+    <header class="header">
+      <h1>start bootstrap</h1> 
+      <nav>
+        <ul>
+          <li>portfolio</li>
+          <li>about</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+    </header>      
+    <section class="parte2">
+      <img id="imagem1" src="assets\images\profile.png" alt="Imagem Trabalhador">
+      <h2 id="tituloParte2">Start Bootstrap</h2>
+      <p id="paragParte2">Web Developer - Graphic Artist - User Experience Designer</p>        
+    </section>
+    <section class="parte3">
+      <h2 id="tituloParte3">Portfolio</h2>
+      <div class="portfolio">
+        <img src="assets\images\portfolio\cabin.png" alt="Imagem cabana">      
+        <img src="assets\images\portfolio\cake.png" alt="Imagem bolo"> 
+        <img src="assets\images\portfolio\circus.png" alt="Imagem circo">
+      </div>
+      <div class="portfolio">
+        <img src="assets\images\portfolio\game.png" alt="Imagem controle">
+        <img src="assets\images\portfolio\safe.png" alt="Imagem cofre">
+        <img src="assets\images\portfolio\submarine.png" alt="Imagem submarino">
+      </div>         
+    </section>
+    <section class="parte4">
+      <h2>About</h2>
+      <div class="about">          
+        <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+      </div>        
+      <button>Download Theme</button>
+    </section>      
+    <section class="parte5">
+      <h2 id="tituloContato">Contact me</h2>                     
+      <form class="contato" action="" method="GET">
+        <input class="input" label="Name" type="text" placeholder="Name"/>
+        <input class="input" label="Email Address" type="text" placeholder="Email Address"/>
+        <input class="input" label="Phone Number" type="text" placeholder="Phone Number"/>
+        <textarea class="input" placeholder="Message"></textarea>
+      </form>          
+      <button>Send</button>
+    </section>
+    <footer class="footer">
+      <div class="footer-bloco">
+        <h3>Location</h3>
+        <p>2215 John Daniel Drive
+        <br>Clark, MO 65243
+        </p>
+      </div>
+      <div class="footer-bloco">
+        <h3>Around the web</h3>
+        <i class="fab fa-facebook-square fa-3x"></i>
+        <i class="fab fa-google-plus-square fa-3x"></i>
+        <i class="fab fa-twitter-square fa-3x"></i>
+        <i class="fab fa-linkedin fa-3x"></i>
+        <i class="fab fa-dribbble-square fa-3x"></i>
+      </div>
+      <div class="footer-bloco">
+        <h3>About freelancer</h3>
+        <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+      </div>         
+    </footer>
+    <p class="copyright">Copyright © Your Website 2019</p>
   </body>
 </html>
