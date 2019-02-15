@@ -1,80 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <title>Freelancer - Start Bootstrap Theme</title>
     <link rel="stylesheet" href="css\main.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet"/>
   </head>
-  <body>
 
-    <div class="linha header">
+  <body>
+    <div class="header">
       <header>
-        <div class="coluna col1">
-          <h1 class="titulo">start bootstrap</h1>
-        </div>
-        <div class="coluna col2">
-          <nav>
-            <ul class="menu">
-              <li>portfolio</li>
-              <li>about</li>
-              <li>contact</li>
-            </ul>
-          </nav>
-        </div> 
+        <h1>start bootstrap</h1> 
+        <nav>
+          <ul>
+            <li>portfolio</li>
+            <li>about</li>
+            <li>contact</li>
+          </ul>
+        </nav>
       </header>        
     </div>
 
-    <div class="linha parte1">
+    <div class="parte1">
       <section>
           <img id="imagem1" src="assets\images\profile.png" alt="Trabalhador">
           <h2 id="tituloParte1">Start Bootstrap</h2>
-          <hr>
           <p id=paragParte1>Web Developer - Graphic Artist - User Experience Designer</p>        
       </section>
     </div>
 
-    <div class="linha">
-        <section>
-          <h2>Portfolio</h2>
-          <hr>
-          <div class="coluna col1 portfolio1">        
-            <img src="assets\images\portfolio\cabin.png" alt="Imagem cabana">
-          </div>
-          <div class="coluna col2 portfolio1">        
-            <img src="assets\images\portfolio\cake.png" alt="Imagem bolo">
-          </div>
-          <div class="coluna col3 portfolio1">        
-            <img src="assets\images\portfolio\circus.png" alt="Imagem circo">
-          </div>
-          <div class="coluna col1">        
-            <img src="assets\images\portfolio\game.png" alt="Imagem controle">
-          </div>
-          <div class="coluna col2">        
-            <img src="assets\images\portfolio\safe.png" alt="Imagem cofre">
-          </div>
-          <div class="coluna col3">        
-            <img src="assets\images\portfolio\submarine.png" alt="Imagem submarino">
-          </div>         
+    <div class="parte2">
+      <section>
+        <h2 id="tituloParte2">Portfolio</h2>
+        <div class="portfolio">
+          <img src="assets\images\portfolio\cabin.png" alt="Imagem cabana">      
+          <img src="assets\images\portfolio\cake.png" alt="Imagem bolo"> 
+          <img src="assets\images\portfolio\circus.png" alt="Imagem circo">
+        </div>
+        <div class="portfolio">
+          <img src="assets\images\portfolio\game.png" alt="Imagem controle">
+          <img src="assets\images\portfolio\safe.png" alt="Imagem cofre">
+          <img src="assets\images\portfolio\submarine.png" alt="Imagem submarino">
+        </div>         
         </section>
     </div>
-
-    <div class="linha">
+    
+    <div class="parte3">
       <section>
-        <div class="coluna col12">
-          <h2>About</h2>
-          <hr>
+        <h2>About</h2>
+        <div class="about">          
           <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
           <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-          <button>Download Now!</button>
-        </div>
+        </div>        
+        <button>Download Theme</button>
       </section>
-    </div>
-    <div class="linha">
+    </div>  
+  
+    <div class="parte4">
         <section>
-          <div class="coluna col12">
-              <h2>Contact me</h2>
-              <hr>
+          <div class="contato">
+              <h2 id="tituloContato">Contact me</h2>
               <form action="" method="GET">
                   <input label="Name" type="text" placeholder="Name"/>
                   <input label="Email Address" type="text" placeholder="Email Address"/>
@@ -85,23 +70,24 @@
           </div>
         </section>
     </div>
+
     <div class="footer">
-      <div class="linha">
-        <footer>
-          <div class="coluna col12">
-            <h3>Location</h3>
-              <p>2215 John Daniel Drive
-              <br>Clark, MO 65243
-              </p>
-            <h3>Around the web</h3>
-            <h3>About freelancer</h3>
-              <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
-            </div>          
-        </footer>
-        <div class="coluna col12">
-          <span class="copyright">&copy; Aline Cherez 2019</span>
-        </div>        
-      </div>   
-    </div>    
+      <footer>
+        <div class="footer-bloco">
+          <h3>Location</h3>
+          <p>2215 John Daniel Drive
+          <br>Clark, MO 65243
+          </p>
+        </div>
+        <div class="footer-bloco">
+          <h3>Around the web</h3>
+        </div>
+        <div class="footer-bloco">
+          <h3>About freelancer</h3>
+          <p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+        </div>
+        <span class="copyright">Copyright © Your Website 2019</span>  
+      </footer>
+    </div>       
   </body>
 </html>
