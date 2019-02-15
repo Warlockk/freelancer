@@ -101,17 +101,20 @@ button{
   display: flex;
   flex-direction: column; 
   width: 50%;
-  margin: 0;
+  padding-left: 300px;
 }
 .input{
-  padding: 15px;
+  padding: 30px;
   border: none;
   border-bottom: 1px solid #A9A9A9;
 }
+#send{
+  margin-left: 300px;
+}
 .input::-webkit-input-placeholder { /* Chrome, Safari, Opera */
-  color: #A9A9A9;
+  color: #2c3e50;
   font-family: 'Lato', sans-serif;
-  font-weight: bolder;
+  font-size: 20px;
 }
 /*parte6*/
 .footer{
