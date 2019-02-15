@@ -95,14 +95,15 @@ button{
 }
 /*parte5*/
 #tituloContato{
+  color: #2c3e50;
   text-align: center;
-  color: #2c3e50; 
 }
-
-.contato{
+.contato-botao{
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  justify-content: center;
+}
+.contato{
+  flex-direction: column;  
 }
 
 
